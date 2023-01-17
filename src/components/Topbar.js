@@ -13,7 +13,6 @@ const Topbar = ({ flags }) => {
   const { victory, defeat, refreshGame } = scontext
 
   const onClick = () => {
-    console.log("clocked")
     refreshGame()
   }
 

@@ -108,6 +108,7 @@ const Board = ({ height, width, bombs, flags, setFlags }) => {
     useEffect(() => {
         if(!victory && !defeat)
             setBoard(initializeBoard())
+            setFlags(bombs)
     }, [victory, defeat])
 
     return (
